@@ -32,3 +32,6 @@ omg get pods -A
 
 Plugins are created by extending the `Handler` class and registering the class in `prowler.py`.
 
+# Development 
+
+See [DEVELOP.md](DEVELOP.md).
