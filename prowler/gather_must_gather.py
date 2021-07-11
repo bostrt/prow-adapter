@@ -1,6 +1,6 @@
 
 from urllib.parse import urlparse
-from handler import Handler
+from prowler.handler import Handler
 import os
 import requests
 import yaml
@@ -23,5 +23,5 @@ class GatherMustGather(Handler):
                     f.write(chunk)
                 print('Done')
         
-    def handle(self,url):           
+    def handle(self,url):
         self.processUrl(url)

@@ -1,10 +1,10 @@
 
 from urllib.parse import urlparse
-from handler import Handler
+from prowler.handler import Handler
 import os
 import requests
 import yaml
-from job_handler import submitJob, tp
+from prowler.job_handler import submitJob, tp
 
 class GatherClusterResources(Handler):
     collections = []

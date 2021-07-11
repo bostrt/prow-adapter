@@ -2,12 +2,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="prow-adapter",
+    name="prowler",
     version='0.0.1',
     packages=find_packages(),
     author="rvanderp3",
     entry_points={
-        "console_scripts": ["prowler=prowler"]
+        "console_scripts": ["prowler=prowler.prowler:main"]
     },
     description="Provide a quick method of extracting prow data and logs for analysis.",
     long_description=open("README.md").read(),

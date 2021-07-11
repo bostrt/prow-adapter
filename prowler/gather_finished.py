@@ -1,9 +1,6 @@
 
-from urllib.parse import urlparse
-from handler import Handler
-import os
+from prowler.handler import Handler
 import requests
-import yaml
 
 class GatherFinished(Handler):
     def __init__(self):        
